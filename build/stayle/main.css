@@ -334,7 +334,10 @@ header li button:hover {
     display: none;
   }
   .antes-depois .logo-img {
-    display: none;
+    height: 85px;
+  }
+  .antes-depois .title {
+    margin-bottom: 24px;
   }
   .vew-completa,
   .vew-tab {

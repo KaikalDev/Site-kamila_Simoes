@@ -330,6 +330,12 @@ header li button:hover {
     max-width: 350px;
     width: 100%;
   }
+  .projetos .container title {
+    padding-top: 34px;
+  }
+  .projetos .container button {
+    padding-bottom: 34px;
+  }
   .projetos .logo-img {
     display: none;
   }

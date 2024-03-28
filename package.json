@@ -1,0 +1,16 @@
+{
+  "name": "kamila_simoes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "less": "less-watch-compiler ./src/stayle ./build/stayle main.less",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^4.2.0",
+    "less-watch": "^1.0.0"
+  }
+}

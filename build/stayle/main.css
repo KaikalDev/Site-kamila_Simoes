@@ -333,6 +333,9 @@ header li button:hover {
   .projetos .logo-img {
     display: none;
   }
+  .antes-depois .logo-img {
+    display: none;
+  }
   .vew-completa,
   .vew-tab {
     display: none;

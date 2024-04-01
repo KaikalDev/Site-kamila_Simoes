@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "less": "less-watch-compiler ./src/stayle ./build/stayle main.less",
+    "less2": "less-watch-compiler ./src/stayle ./build/stayle main-galeria.less",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

@@ -1,0 +1,66 @@
+@import 'maps';
+@tablet: ~'(max-width: 1023px) and (min-width: 768px)';
+@mobile: ~'(max-width: 767px)';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+
+header {
+    background-color: #colors[backgroundcolorClara];
+
+    .navbar-brand,
+    .nav-link{
+        color: #colors[corTexto];
+    }
+
+    .nav-link{
+        transition: all ease .3s;
+    
+        &:hover{
+            color: #colors[corTexto];
+            transform: scale(1.1);
+        }
+
+
+    }
+
+    .nav-item{
+        border-right: 1px solid #colors[corTexto];
+    }
+    .nav-item-1{
+       border-left: 1px solid #colors[corTexto];
+    }
+    .nav-item-h{
+        border-right: none;
+        button{
+            border: none;
+            background-color: #colors[backgroundcolorClara];
+            padding: 8px 16px;
+        }
+    }
+
+
+}
+
+section{
+    h1{
+        color: #colors[corTexto];
+
+    }
+}
+
+#cabesalho .nav .nav-link.active {
+    background-color: #colors[corTexto];
+    color: #fff;
+}
+
+#cabesalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #colors[corTexto];
+}

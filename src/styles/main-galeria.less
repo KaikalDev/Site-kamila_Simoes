@@ -40,6 +40,7 @@ header {
             border: none;
             background-color: #colors[backgroundcolorClara];
             padding: 8px 16px;
+            font-size: 28px;
         }
     }
 
@@ -49,7 +50,7 @@ header {
 section{
     h1{
         color: #colors[corTexto];
-
+        padding-block: 16px;
     }
 }
 
@@ -63,4 +64,14 @@ section{
 .navbar-brand:hover,
 .nav-cardapio .nav-link.active:hover {
     color: #colors[corTexto];
+}
+
+.coluna_1 img,
+.coluna_2 img,
+.coluna_3 img{
+    transition: all ease .3s;
+
+    &:hover{
+        transform: scale(1.07);
+    }
 }

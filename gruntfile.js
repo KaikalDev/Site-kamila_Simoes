@@ -123,47 +123,47 @@ module.exports = function(grunt){
                         },
                         {
                             match: 'LOGO',
-                            replacement: '/dist/image/logo.PNG'
+                            replacement: '/image/logo.PNG'
                         },
                         {
                             match: 'LOGO_MARRON',
-                            replacement: '/dist/image/logo-marron.PNG'
+                            replacement: '/image/logo-marron.PNG'
                         },
                         {
                             match: 'LOGO_COMPLETA',
-                            replacement: '/dist/image/logo-completa.PNG'
+                            replacement: '/image/logo-completa.PNG'
                         },
                         {
                             match: 'IMAGEM_SOBRE',
-                            replacement: '/dist/image/foto-sobre.jpeg'
+                            replacement: '/image/foto-sobre.jpeg'
                         },
                         {
                             match: 'IMAGEM_CONTATO',
-                            replacement: '/dist/image/foto-contato.jpeg'
+                            replacement: '/image/foto-contato.jpeg'
                         },
                         {
                             match: 'PROJETO_QUARTO',
-                            replacement: '/dist/image/quarto.jpeg'
+                            replacement: '/image/quarto.jpeg'
                         },
                         {
                             match: 'PROJETO_SALA',
-                            replacement: '/dist/image/sala.jpeg'
+                            replacement: '/image/sala.jpeg'
                         },
                         {
                             match: 'PROJETO_GURMET',
-                            replacement: '/dist/image/gurmet.jpeg'
+                            replacement: '/image/gurmet.jpeg'
                         },
                         {
                             match: 'PROJETO_COMERCIAL',
-                            replacement: '/dist/image/comercial.jpeg'
+                            replacement: '/image/comercial.jpeg'
                         },
                         {
                             match: 'PROJETO_COZINHA',
-                            replacement: '/dist/image/cozinha.jpeg'
+                            replacement: '/image/cozinha.jpeg'
                         },
                         {
                             match: 'PROJETO_BANHEIRO',
-                            replacement: '/dist/image/banheiro.JPEG'
+                            replacement: '/image/banheiro.JPEG'
                         },
                     ]
                 },

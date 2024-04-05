@@ -201,18 +201,14 @@ module.exports = function(grunt){
 					expand: true,
 					cwd: 'src/',
 					src: '**/*.{JPEG,jpeg,PNG}',
-					dest: 'dist/',
-					dest: 'dev/'
+					dest: 'dist/'
 				}]
 			},
 			rename: {
 				files: {
 					'dist/image/*.JPEG': 'src/image/*.JPEG',
 					'dist/image/*.jpeg': 'src/image/*.jpeg',
-					'dist/image/*.PNG': 'src/image/*.PNG',
-                    'dev/image/*.JPEG': 'src/image/*.JPEG',
-					'dev/image/*.jpeg': 'src/image/*.jpeg',
-					'dev/image/*.PNG': 'src/image/*.PNG'
+					'dist/image/*.PNG': 'src/image/*.PNG'
 				}
 			}
 		},

@@ -203,13 +203,6 @@ module.exports = function(grunt){
 					src: '**/*.{JPEG,jpeg,PNG}',
 					dest: 'dist/'
 				}]
-			},
-			rename: {
-				files: {
-					'dist/image/*.JPEG': 'src/image/*.JPEG',
-					'dist/image/*.jpeg': 'src/image/*.jpeg',
-					'dist/image/*.PNG': 'src/image/*.PNG'
-				}
 			}
 		},
         clean: ['prebuild'],
